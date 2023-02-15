@@ -1,6 +1,6 @@
-package com.mycompany.bookstore.entity;
+package com.mycompany.bookstore.dto;
 
-public class BookEntity {
+public class BookDTO {
 	
 	private Long bookId;
 	private String name;
@@ -51,8 +51,5 @@ public class BookEntity {
 	public void setAuthorEmail(String authorEmail) {
 		this.authorEmail = authorEmail;
 	}
-	
-	
-	
 
 }
